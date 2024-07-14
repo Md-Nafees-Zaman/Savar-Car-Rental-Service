@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f1f1f1;
+        padding: 20px;
+      }
+      
+      h1 {
+        color: #333333;
+        text-align: center;
+      }
+      
+      p {
+        color: #555555;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: 18px;
+      }
+      
+      button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      
+      button:hover {
+        background-color: #3e8e41;
+      }
+      
+      button:focus {
+        outline: none;
+      }
+    </style>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row col-md-6 col-md-offset-3">
+        <div class="panel panel-primary">
+          <div class="panel-heading text-center">
+            <h1>
+               Reserve your car</h1>
+          </div>
+          <div class="panel-body">
+            <form action="connect2.php" method="post">
+              <div class="form-group">
+                <label for="CCar_Id"> Enter the Car Id: </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="CCar_Id"
+                  name="CCar_Id"
+                />
+              </div>
+             
+         
+             
+              <button type="submit" class="btn btn-success">OK</button>
+            </form>
+          </div>
+          <div class="panel-footer text-right">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+
+  </div>
+
+</div>
+  </body>
+</html>
